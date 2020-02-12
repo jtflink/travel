@@ -1,0 +1,92 @@
+/* Default font */
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* Override headers with different font */
+.apply_for_membership h1 {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.companies_partnered_with h2 {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* Navbar, including overriding background color */
+.navbar {
+  background-color: #FEFEFE;
+}
+
+.navbar img {
+  height: 40px;
+}
+
+/* Jumbotron, including overriding text color */
+.jumbotron {
+  background-attachment: fixed;
+  background-image: url(hawaii_v2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+}
+
+/* About */
+.about {
+  background-color: #EFEBE6;
+}
+
+.about h4 {
+  color: #0d667f;
+}
+
+.about p {
+  font-size: 20px;
+}
+
+/* Portfolio table */
+.portfolio td {
+  width: 25%;
+  vertical-align: middle;
+  height: 200px;
+}
+
+/* Portfolio company logos grayed out, except when mouse hovers over them */
+.portfolio img {
+  height: auto;
+  max-width: 60%;
+  filter: grayscale(100%);
+}
+
+.table img:hover {
+  filter: grayscale(0%);
+}
+
+/* Investors */
+.investors_page_headers {
+  color: #0d667f;
+}
+
+/* Overriding button style rules */
+.btn {
+  border-color: #0d667f;
+  color: #0d667f;
+}
+
+.btn:hover {
+  background-color: #0d667f;
+  border-color: #0d667f;
+  color: #ffffff;
+}
+
+.jumbotron a {
+  border-color: #ffffff;
+  color: #ffffff;
+}
+
+/* Footer */
+.footer img {
+  height: 40px;
+}
