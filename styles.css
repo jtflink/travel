@@ -24,6 +24,14 @@ body {
   align-items: center;
 }
 
+.jumbotron h1 {
+  font-size: 4vw;
+}
+
+.jumbotron h3 {
+  font-size: 2vw;
+}
+
 /* Overriding button style rules */
 .btn {
   border-color: #ffffff;
