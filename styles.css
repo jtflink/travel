@@ -15,7 +15,7 @@ body {
 /* Jumbotron, including overriding text color */
 .jumbotron {
   background-attachment: fixed;
-  background-image: url(hawaii_v3.png);
+  background-image: url(background.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
